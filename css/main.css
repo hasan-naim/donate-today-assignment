@@ -8,17 +8,64 @@ body {
   padding: 0;
 }
 
-header {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* global */
+.btn {
+  text-decoration: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 4px;
+  background: #ff5959;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  border: 2px solid #ff5959;
+  transition: all 0.3s;
 }
 
+.btn:hover {
+  color: #ff5959;
+  background: white;
+}
+
+/* header section starts */
+header {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+}
+
+/* header description section */
+.header-descriptiton {
+  width: 700px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 header h1 {
   margin: 0 auto;
   font-size: 65px;
-  width: 700px;
+  margin-bottom: 40px;
   text-align: center;
+}
+.header-descriptiton p {
+  margin-bottom: 40px;
+}
+.header-descriptiton a {
+  display: inline-block;
+}
+.header-descriptiton .btn:hover {
+  background: transparent;
+}
+/* header img */
+.header-img {
+  background-image: url(/assets/images/donation0.jpg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(20%);
 }
