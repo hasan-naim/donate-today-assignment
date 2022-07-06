@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 100
+}
