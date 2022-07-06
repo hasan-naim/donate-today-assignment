@@ -189,7 +189,43 @@ header h1 {
 .donate-plan-cards .card:nth-child(3) {
   background: rgba(255, 244, 214, 1);
 }
+/* update section */
+#update-section {
+  margin: 100px 0;
+}
+#update-section .newsletter {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 50px 0;
+  border-radius: 5px;
+  align-items: center;
+  background: #fff4d6;
+}
+#update-section .newsletter > div {
+  display: flex;
+}
 
+.newsletter input {
+  padding: 10px 16px;
+  border-top-left-radius: 5px;
+  border: none;
+  outline: none;
+  border-bottom-left-radius: 5px;
+  background: #d9d9d9;
+}
+.newsletter .btn {
+  border-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: none;
+}
+.newsletter .btn:hover {
+  background: #ff5959;
+  color: white;
+}
 /* footer */
 
 footer {
