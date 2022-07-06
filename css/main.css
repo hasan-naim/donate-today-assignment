@@ -189,6 +189,46 @@ header h1 {
 .donate-plan-cards .card:nth-child(3) {
   background: rgba(255, 244, 214, 1);
 }
+
+/* iformation section */
+#info-sec {
+  background: #ff5959;
+  margin-top: 100px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+#info-sec .info-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#info-sec .info-card {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+#info-sec .info-card img {
+  width: 60px;
+  color: white;
+}
+
+.info-card-desc h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 0;
+}
+.info-card-desc span {
+  font-size: 12px;
+  font-weight: 700;
+}
 /* update section */
 #update-section {
   margin: 100px 0;
